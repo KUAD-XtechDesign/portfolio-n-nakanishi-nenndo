@@ -291,3 +291,46 @@ case1
  #case1 li .content{
   flex: 1;
  }
+
+
+/*======================================================
+case2
+======================================================*/
+#case2{
+  border-left: 1px solid #000;
+  margin-left: 30px;
+  }
+  
+ #case2 li{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+ }
+  
+ #case2 li .year{
+  width: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color:#666
+ }
+  
+ #case2 li .year::before{
+  content: '';
+  display: block;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #ff3502;
+  left: -7px;
+  margin-right: 5px;
+ }
+  
+ #case2 li .date{
+  width: 60px;
+ }
+  
+ #case2 li .content{
+  flex: 1;
+ }
