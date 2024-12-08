@@ -16,7 +16,7 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: rgb(238, 255, 253);
   position: relative;
 }
 
@@ -94,8 +94,8 @@ header .inner {
 footer
 ======================================================*/
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(44, 53, 143);
+  color: rgb(213, 228, 238);
   text-align: center;
   padding: 20px;
   font-size: 10px;
@@ -130,12 +130,12 @@ footer {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: rgb(139, 185, 199);
 }
 
 .top_eye_catch {
   height: 500px;
-  background-image: url(../images/top.jpg);
+  background-image: url(../images/IMG_5028.PNG);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -148,7 +148,7 @@ footer {
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/IMG_4271のコピー.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -248,3 +248,44 @@ report
 .mb_m {
   margin-bottom: 20px;
 }
+
+#case1{
+  border-left: 1px solid #000;
+  margin-left: 30px;
+  }
+  
+ #case1 li{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+ }
+  
+ #case1 li .year{
+  width: 80px;
+  display: flex;
+  align-items: center;
+ }
+  
+ #case1 li .year::before{
+  content: '';
+  display: block;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #b40000dc;
+  left: -7px;
+  margin-right: 5px;
+ }
+  
+ #case1 li .date{
+  width: 60px;
+ }
+  
+ #case1 li .content{
+  flex: 1;
+ }
+ 
+ .outline .pic iframe {
+   width: 100%;
+ }
